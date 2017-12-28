@@ -63,7 +63,7 @@ a>img{
   to { transform: rotate(360deg); }
 }
 
-@media (min-width: 360px) and (max-width: 768px){
+@media (min-width: 360px) and (max-width: 848px){
   .name{
     font-size: 2rem;
   }
