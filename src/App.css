@@ -1,27 +1,63 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+html, body, .contain, #root {
+  height: 100%;
+  width: 100%;
+}
+
+#particles-js{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.contain {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  background-color: #3e5971;
+}
+
+.name{
+  display: flex;
+  color: #d0aaaa;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-style: italic;
+}
+
+.balon{
+  padding-top: 17px;
+}
+
+.socialMedia{
+  position: absolute;
+  margin-top: 244px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.dev{
+  position: absolute;
+  margin-top: 6rem;
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+  font-size: 49px;
+  color: lightgray;
+}
+
+a>img{
+  height: 70px;
+  margin: 8px;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  animation: App-logo-spin 5s linear infinite;
+  height: 100px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
