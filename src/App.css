@@ -23,7 +23,7 @@ html, body, .contain, #root {
 .socialMedia{
   position: absolute;
   margin-top: 260px;
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
 }
