@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 html, body, .contain, #root {
-  height: 100%;
-  width: 100%;
-}
-
-#particles-js{
-  background-color: black;
   height: 100%;
   width: 100%;
 }
@@ -16,65 +9,55 @@ html, body, .contain, #root {
   display: flex;
   justify-content: center !important;
   align-items: center;
-  background-color: #3e5971;
+  background-color: #201f1f;
 }
 
 .name{
   display: flex;
-  color: #d0aaaa;
-  font-size: 6rem;
+  color: #ecebe8;
+  font-size: 4rem;
   font-weight: bold;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-style: italic;
-}
-
-.balon{
-  padding-top: 17px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .socialMedia{
   position: absolute;
   margin-top: 260px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .dev{
   position: absolute;
   margin-top: 130px;
-  font-family: 'Indie Flower', cursive;
-  font-style: italic;
-  font-size: 49px;
-  color: lightgray;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  color: #ecebe8;
 }
 
-a>img{
-  height: 70px;
-  margin: 8px;
+.svg-inline--fa{
+  color: #ecebe8;
 }
 
-.App-logo {
-  animation: App-logo-spin 5s linear infinite;
-  height: 100px;
+.svg-inline--fa:hover{
+  color: #6a89cc;
 }
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+
+.guionBajo{
+  animation: titilar 1s linear infinite;
+}
+@keyframes titilar{
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 
 @media (min-width: 360px) and (max-width: 848px){
   .name{
     font-size: 2rem;
   }
-  .App-logo{
-    height:60px;
-  }
-  .balon{
-    padding-top: 0px;
-  }
   .dev{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
