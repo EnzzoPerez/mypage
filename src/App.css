@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-html, body, .contain, #root {
+html, body, .contain, #root, .link {
   height: 100%;
   width: 100%;
 }
@@ -20,8 +20,11 @@ html, body, .contain, #root {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.socialMedia{
+.socialMedia, .dev, .link{
   position: absolute;
+}
+
+.socialMedia{
   margin-top: 260px;
   width: 30%;
   display: flex;
@@ -29,11 +32,21 @@ html, body, .contain, #root {
 }
 
 .dev{
-  position: absolute;
   margin-top: 130px;
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
   color: #ecebe8;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height:90%;
+}
+
+.link>a{
+  color: white;
 }
 
 .svg-inline--fa{
