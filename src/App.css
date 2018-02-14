@@ -78,6 +78,9 @@ html, body, .contain, #root, .link {
     margin-top: 245px;
     width: 70%;
   }
+  .link{
+    align-items: flex-start;
+  }
   .svg-inline--fa.fa-w-14{
     width: 60px;
   }
