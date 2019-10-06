@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html,
+body,
+.contain,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    background-color: #201f1f;
+}
+
+.info-container {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    color: #ecebe8;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-medium {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dev {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    color: #ecebe8;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.link > a {
+    color: white;
+}
+
+.icon-medium{
+    width: 45px;
+    height: 45px;
+}
+
+.icon-svg {
+    color: #ecebe8;
+    width: 80px;
+    height: 80px;
+}
+
+.icon-svg:hover {
+    color: cornflowerblue;
+}
+
+.guionBajo {
+    width: 30px;
+    height: 76%;
+    background-color:#ecebe8;
+    animation: titilar 1s infinite;
+}
+
+@keyframes titilar {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@media (min-width: 160px) and (max-width: 848px) {
+    .name {
+        font-size: 2rem;
+    }
+    .dev {
+        text-align: center;
+        font-size: 18px;
+    }
+    .socialMedia {
+        margin-top: 245px;
+        width: 70%;
+    }
+    .link {
+        margin-top: 10%;
+    }
+
+    .icon-svg {
+        color: #ecebe8;
+        width: 45px;
+        height: 45px;
+    }
+    
+    .div-medium {
+        height: 45px;
+        width: 45px;
+    }
+    .icon-medium {
+        width: 25px;
+        height: 25px;
+    }
+    
+    
+    
+    .guionBajo {
+        width: 15px;
+        height: 76%;
+    }
+}
